@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  body {
+    background-image: url(hotel.jpg);
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main-heading h1 {
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    margin-top: 7vh;
+    font-size: 8vh;
+  }
+
+  .form-section {
+    margin-top: 5vh;
+  }
+
+  form {
+    background-color: rgb(241, 236, 241);
+    border-radius: 2px;
+    padding: 0 5vh;
+  }
+
+  form h2 {
+    text-transform: capitalize;
+    text-align: center;
+    color: maroon;
+    padding-top: 6vh;
+    font-size: 6vh;
+  }
+
+  form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+
+  }
+
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+
+  form .input_box{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-left: 2.5vh;
+    margin-top: 15px;
+  }
+
+  .input_box .icon{
+    position: absolute;
+    top: 75%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: maroon;
+  }
+
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+  }
+
+  form button{
+    color: #fff;
+    background-color: maroon;
+    border: none;
+    padding: 5px 10vh;
+    margin-left: 2.5vh;
+    margin-bottom: 4vh;
+  }
+
+  .bottom-text {
+    text-align: center;
+    margin-top: 75vh;
+  }
+
+  .bottom-text p {
+    color: rgb(20, 18, 12);
+  }
+
+  .bottom-text span {
+    color: maroon ;
+  }
